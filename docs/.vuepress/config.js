@@ -7,7 +7,7 @@ module.exports = {
     '/': {
       lang: 'en-US',
       title: 'Canarytokens',
-      description: 'Offical docs for Canarytokens'
+      description: 'Official docs for Canarytokens'
     },
   },
   themeConfig: {
@@ -28,7 +28,7 @@ module.exports = {
       { text: 'Home', link: '/' },
       { text: 'Guide', link: '/guide/' },
       { text: 'Create', link: 'https://canarytokens.org/' },
-      { text: 'Login', link: '/login/' },
+      // { text: 'Login', link: '/login/' },
     ],
     sidebar: {
       '/guide/':[
@@ -53,18 +53,25 @@ module.exports = {
             'dns-token',
             'web-image-token',
             'cloned-web-token',
+            'css-cloned-site-token',
+            'entraid-token',
             'adobe-pdf-token',
             'ms-word-token',
             'ms-excel-token',
+            'mysql-dump-token',
             'windows-directory-token',
             'custom-exe-token',
             'qr-code-token',
+            'sensitive-cmd-token',
             'svn-token',
             'aws-keys-token',
             'fast-redirect-token',
             'slow-redirect-token',
             'sql-server-token',
             'wireguard-token',
+            'kubeconfig-token',
+            'fake-app-token',
+            'idp-app-token',
           ]
         }
       ]
